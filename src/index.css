@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Styles create note form*/
+.container-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-notes *{
+  display: block;
+  width: 100%;
+  padding: 2px;
+}
+.form-notes textarea{
+  height: 50px;
+  font-size: 15px;
+}
+.form-notes label{
+  margin-top: 10px;
+}
+.form-notes button{
+  margin-top: 10px;
+  height: 30px;
+}
+
+/* Styles task*/
+.container-task-edit{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.container-task{
+  cursor: pointer;
+  display: flex;
+}
+.task{
+  width: 70%;
+}
+.task input{
+  display: block;
+}
+.buttons-task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  justify-content: center;
+}
+.buttons-task *{
+  margin: 10px;
+}
+.buttons-task button{
+  width: 100%;
+}
+
+/* Styles form edit task*/
+.edit-container{
+  display: flex;
+}
+.container-form-edit{
+  width: 70%;
+}
+.form-edit *{
+  display: block;
+}
+.buttons-edit{
+  display: flex;
+  flex-direction: column;
+
+}
+.buttons-edit *{
+  margin: 10px;
+}
+
+.container-inputs-search{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.container-inputs-search *{
+  margin: 5px;
+}
+.dropdown-filter{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (min-width:600px){
+  .buttons-task button{
+    width: 50%;
+  }
+  .buttons-edit button{
+    width: 100%;
+  }
+}
